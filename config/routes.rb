@@ -1,4 +1,12 @@
 JoyblindApp::Application.routes.draw do
+  get "users/new"
+
+  # get "pages/about"
+  
+  match "/about", :to => "pages#about" # This also creates ta 'about_path'
+  
+  root :to => "pages#home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
