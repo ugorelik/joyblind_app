@@ -1,0 +1,67 @@
+
+body
+{
+	font-size: 62.5%;
+}
+
+p
+{
+	font-size:1.4em;
+}
+
+#main-wrapper
+{
+	margin: 0 auto;
+	width: 780px;
+	padding: 20px;
+}
+
+#footer
+{
+}
+	#footer ul
+	{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	
+		#footer ul li
+		{
+			display:inline;
+			
+		}
+		
+			#footer ul li a
+			{			
+			}
+			
+				#footer ul li a h1
+				{
+					float:left;
+					padding-right:15px;
+					color:#3399ff;
+				}
+/*--------------------------------------------------------------------------------------
+	About */
+
+h1.about
+{
+	text-align:right;
+	font-size: 4.8em;
+	margin-top:-10px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------
+	Home */
+#everything
+{
+	text-align:right;
+}
+
+
+
+
+
+
